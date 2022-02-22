@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   const [toggle, setToggle] = useState(0);
-  const [color, setColor] = useState("grey");
+  const [color, setColor] = useState("black");
 
   const toggleHandler = () => {
     toggle === 0 ? setToggle(100) : setToggle(0);
